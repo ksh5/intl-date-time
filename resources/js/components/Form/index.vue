@@ -13,7 +13,7 @@
                                        :placeholder="placeholder"
                                        :locale="locale"
                                        :error-message-locale="errorMessageLocale"
-                                       :class="{errorClass: validationError}"
+                                       :class="errorClasses"
                                        class="w-full form-control form-input form-input-bordered"
                                        @change="handleChange"
                                        @error="handleError"
